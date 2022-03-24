@@ -15,7 +15,7 @@ public class Resources {
             Field[] fs = android.R.attr.class.getFields();
             for (Field f : fs) {
                 attrMap.put(f.getName(), (Integer) f.get(null));
-                System.out.println("=======" + f.getName());
+//                System.out.println("=======" + f.getName());
             }
         } catch (Exception e) {
             throw new RuntimeException(e);
