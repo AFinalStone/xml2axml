@@ -1,3 +1,5 @@
+### 本项目的目的主要是为了支持AndroidManifest.xml中存在UTF-8编码时候明文axml文件和二进制axml的相互转换
+
 # xml2axml
 
 [xml2axml.jar](out/artifacts/xml2axml_jar)
